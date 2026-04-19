@@ -240,7 +240,7 @@ export default function AnimatedTitle({ humanitixUrl }: AnimatedTitleProps) {
             <p className="event-subtitle mx-auto mb-10 max-w-xl font-['Roboto'] text-base leading-relaxed text-white/70 opacity-0 md:text-xl">
                 Tus hijos ya están recibiendo esta información de algún lado.
                 <br />
-                <span className="text-white/90">¿Prefierías que la recibieran de ti?</span>
+                <span className="text-white/90">¿No prefierías mejor que la recibieran de ti?</span>
             </p>
 
             {/* CTA */}

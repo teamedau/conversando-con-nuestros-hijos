@@ -38,11 +38,11 @@ function ExpertaCard({ experta, index }: { experta: Experta; index: number }) {
                     <img
                         src={experta.foto}
                         alt={experta.nombre}
-                        className="h-20 w-20 rounded-full object-cover"
+                        className="h-36 w-36 rounded-full object-cover"
                     />
                 ) : (
                     <div
-                        className="flex h-20 w-20 items-center justify-center rounded-full font-['Rum_Raisin'] text-2xl text-white"
+                        className="flex h-36 w-36 items-center justify-center rounded-full font-['Rum_Raisin'] text-4xl text-white"
                         style={{ backgroundColor: experta.color }}
                     >
                         {getInitials(experta.nombre)}

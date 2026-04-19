@@ -31,7 +31,7 @@ export default function CtaFinal({ humanitixUrl }: CtaFinalProps) {
                 <p className="mb-8 font-['Rum_Raisin'] text-3xl leading-snug text-white md:text-4xl">
                     "El mejor momento para tener esta conversación
                     <br className="hidden md:block" />
-                    es antes de que alguien más la tenga."
+                    es antes de que alguien más la tenga con tus hijos."
                 </p>
 
                 <p className="mb-2 font-['Roboto'] text-base text-white/60">
