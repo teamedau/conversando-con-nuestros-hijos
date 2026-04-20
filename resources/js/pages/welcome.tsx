@@ -45,11 +45,12 @@ const expertas: Experta[] = [
 
     },
     {
-        nombre: 'Karoll',
+        nombre: 'Karoll Pinzón',
         tema: 'Multiculturalidad',
         descripcion:
             'Especialista en familias inmigrantes. Ayuda a criar hijos que integran dos culturas sin perder su identidad ni su raíz.',
         color: '#FFB343',
+        foto: '/images/karoll.jpg',
     },
     {
         nombre: 'Viviana Castrillón',
