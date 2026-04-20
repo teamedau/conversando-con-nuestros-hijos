@@ -21,7 +21,7 @@ const expertas: Experta[] = [
     },
     {
         nombre: 'Soraya Cooney',
-        tema: 'Coach financiera',
+        tema: 'Finanzas personales',
         descripcion:
             'Asesora financiera saludables. Enseña a criar hijos con una relación sana con el dinero, el ahorro y el valor del trabajo.',
         color: '#42EAFF',

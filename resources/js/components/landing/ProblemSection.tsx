@@ -1,8 +1,8 @@
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 
 const bullets = [
-    '¿Cómo le explico a mi hijo qué es el sexo sin que se me cierre el piso bajo los pies?',
-    '¿Cuándo es el momento correcto para hablar de dinero, de fe, de identidad?',
+    '¿Cómo le explico a mi hijo qué es el sexo sin querer que me trague la tierra?',
+    '¿Cuándo es el momento correcto para hablar de dinero, de espiritualidad, de seguridad en las redes sociales?',
     '¿Y si le digo algo mal y lo confundo más de lo que ya está?',
 ];
 
