@@ -77,7 +77,11 @@ export default function Welcome() {
                     content="6 expertas latinoamericanas. 3 horas de contenido real. 1 evento presencial en Brisbane. ¿No preferirías que tus hijos recibieran esta información de ti?"
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:image" content="/og-image.jpg" />
+                <meta property="og:image" content="/images/og-image.jpg" />
+                <meta property="og:image:width" content="1200" />
+                <meta property="og:image:height" content="630" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:image" content="/images/og-image.jpg" />
             </Head>
 
             <main>
