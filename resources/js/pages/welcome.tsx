@@ -12,7 +12,7 @@ const HUMANITIX_URL = 'https://events.humanitix.com/conversando-con-nuestros-hij
 
 const expertas: Experta[] = [
     {
-        nombre: 'Ana María',
+        nombre: 'Ana María Uztaris',
         tema: 'Sexualidad',
         descripcion:
             'Educadora sexual certificada. Te da el vocabulario y el enfoque para hablar de cuerpo, consentimiento y desarrollo con claridad y amor.',
@@ -28,18 +28,21 @@ const expertas: Experta[] = [
         foto: '/images/soraya.jpg',
     },
     {
-        nombre: 'Gabriela',
+        nombre: 'Gabriela Borgognone',
         tema: 'Espiritualidad',
         descripcion:
             'Guía espiritual intercultural. Acompaña a familias a nutrir la dimensión espiritual de sus hijos con apertura y profundidad.',
         color: '#4272FF',
+        foto: '/images/gabriela.jpg',
     },
     {
-        nombre: 'Solange',
-        tema: 'Comunicación afectiva',
+        nombre: 'Solange Lipcin',
+        tema: 'Comunicación efectiva',
         descripcion:
             'Coach en comunicación efectiva. Transforma la forma en que te comunicas con tus hijos: escucha activa, límites con amor y diálogo real.',
         color: '#FF7E42',
+        foto: '/images/solange.jpg',
+
     },
     {
         nombre: 'Karoll',
@@ -70,7 +73,7 @@ export default function Welcome() {
                 <meta property="og:title" content="Conversando con Nuestros Hijos – Brisbane 2025" />
                 <meta
                     property="og:description"
-                    content="6 expertas latinoamericanas. 3 horas de contenido real. 1 evento presencial en Brisbane. ¿No prefierías que tus hijos recibieran esta información de ti?"
+                    content="6 expertas latinoamericanas. 3 horas de contenido real. 1 evento presencial en Brisbane. ¿No preferirías que tus hijos recibieran esta información de ti?"
                 />
                 <meta property="og:type" content="website" />
                 <meta property="og:image" content="/og-image.jpg" />
