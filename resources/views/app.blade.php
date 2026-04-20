@@ -34,6 +34,17 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+        {{-- Open Graph / WhatsApp / redes sociales --}}
+        <meta property="og:title" content="Conversando con Nuestros Hijos – Brisbane, 23 de Mayo 2025" />
+        <meta property="og:description" content="6 expertas latinoamericanas en vivo. 3 horas de contenido real. Un evento presencial en Bardon, Brisbane para familias latinas. $40 AUD." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="{{ url('/images/og-image.jpg') }}" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="{{ url('/') }}" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="{{ url('/images/og-image.jpg') }}" />
+
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
