@@ -31,7 +31,7 @@ const expertas: Experta[] = [
         nombre: 'Gabriela Borgognone',
         tema: 'Espiritualidad',
         descripcion:
-            'Guía espiritual intercultural. Acompaña a familias a nutrir la dimensión espiritual de sus hijos con apertura y profundidad.',
+            'Guía espiritual. Ayuda a padres a entender los estados de conciencia expandida de sus hijos y a guiarlos con apertura y sin prejuicios.',
         color: '#4272FF',
         foto: '/images/gabriela.jpg',
     },
@@ -48,7 +48,7 @@ const expertas: Experta[] = [
         nombre: 'Karoll Pinzón',
         tema: 'Multiculturalidad',
         descripcion:
-            'Especialista en familias inmigrantes. Ayuda a criar hijos que integran dos culturas sin perder su identidad ni su raíz.',
+            'Fundadora de The Familia Hub y especialista en familias migrantes. Ayuda a criar hijos que integran culturas sin perder su identidad ni su raíz.',
         color: '#FFB343',
         foto: '/images/karoll.jpg',
     },
