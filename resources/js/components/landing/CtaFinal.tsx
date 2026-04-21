@@ -28,28 +28,41 @@ export default function CtaFinal({ humanitixUrl }: CtaFinalProps) {
                     isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
                 }`}
             >
-                <p className="mb-8 font-['Rum_Raisin'] text-3xl leading-snug text-white md:text-4xl">
-                    "El mejor momento para tener esta conversación con tus hijos
-                    <br className="hidden md:block" />
-                    es antes de que alguien más la tenga con ellos."
+                <p className="mb-6 font-['Roboto'] text-base leading-relaxed text-white/60 md:text-lg">
+                    Cada día que pasa, alguien más está teniendo esas conversaciones con tus hijos.
+                    El mundo digital, los amigos, las redes. Tú puedes llegar primero.
                 </p>
 
-                <p className="mb-2 font-['Roboto'] text-base text-white/60">
+                <p className="mb-10 font-['Rum_Raisin'] text-3xl leading-snug text-[#42EAFF] md:text-4xl">
+                    El mejor momento para empezar es ahora.
+                </p>
+
+                <p className="mb-2 font-['Roboto'] text-sm text-white/50">
                     23 de Mayo · 10:00 am – 1:00 pm · Bardon, Brisbane
                 </p>
 
-                <p className="mb-8 font-['Roboto'] text-2xl font-medium text-white">$40 AUD</p>
+                <p className="mb-8 font-['Roboto'] text-sm text-white/50">Máximo 40 familias.</p>
 
-                <a
-                    href={humanitixUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block rounded-2xl bg-[#FFB343] px-7 py-4 font-['Roboto'] text-base font-medium text-[#0a0a1a] shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#f0a730] hover:shadow-[#FFB343]/30 hover:shadow-xl sm:px-10 sm:text-lg"
-                >
-                    Quiero estar ahí · $40 AUD
-                </a>
+                <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+                    <a
+                        href={humanitixUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block w-full rounded-full bg-[#FFB343] px-8 py-4 text-center font-['Roboto'] text-base font-medium text-[#5a3800] transition-all duration-200 hover:brightness-95 sm:w-auto"
+                    >
+                        Quiero mi lugar · $49 AUD
+                    </a>
+                    <a
+                        href={humanitixUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block w-full rounded-full border-2 border-[#FFB343] px-8 py-4 text-center font-['Roboto'] text-base font-medium text-[#FFB343] transition-all duration-200 hover:bg-[#FFB343]/10 sm:w-auto"
+                    >
+                        Venimos en pareja · $79 AUD
+                    </a>
+                </div>
 
-                <p className="mt-5 font-['Roboto'] text-sm text-white/40">Los lugares son limitados.</p>
+                <p className="mt-6 font-['Roboto'] text-sm text-white/40">Los lugares son limitados.</p>
             </div>
         </section>
     );

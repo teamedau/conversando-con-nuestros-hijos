@@ -1,8 +1,11 @@
 import BeneficiosSection from '@/components/landing/BeneficiosSection';
+import CausaSection from '@/components/landing/CausaSection';
 import CtaFinal from '@/components/landing/CtaFinal';
 import ExpertasSection, { type Experta } from '@/components/landing/ExpertasSection';
+import FaqSection from '@/components/landing/FaqSection';
 import Footer from '@/components/landing/Footer';
 import HeroSection from '@/components/landing/HeroSection';
+import PreciosSection from '@/components/landing/PreciosSection';
 import ProblemSection from '@/components/landing/ProblemSection';
 import StatsBar from '@/components/landing/StatsBar';
 import { Head } from '@inertiajs/react';
@@ -88,8 +91,11 @@ export default function Welcome() {
                 <HeroSection humanitixUrl={HUMANITIX_URL} />
                 <StatsBar />
                 <ProblemSection />
+                <CausaSection />
                 <ExpertasSection expertas={expertas} />
                 <BeneficiosSection />
+                <PreciosSection humanitixUrl={HUMANITIX_URL} />
+                <FaqSection />
                 <CtaFinal humanitixUrl={HUMANITIX_URL} />
                 <Footer />
             </main>
