@@ -22,9 +22,9 @@ export default function PreciosSection({ humanitixUrl }: PreciosSectionProps) {
 
                     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         {/* Card 1 — Una persona */}
-                        <div className="overflow-hidden rounded-2xl bg-white shadow-sm">
+                        <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm">
                             <div className="h-1 w-full bg-[#FFB343]" />
-                            <div className="flex flex-col p-8">
+                            <div className="flex flex-1 flex-col p-8">
                                 <p className="mb-2 font-['Roboto'] text-sm font-medium uppercase tracking-widest text-[#6b6b80]">
                                     Una persona
                                 </p>
@@ -45,9 +45,9 @@ export default function PreciosSection({ humanitixUrl }: PreciosSectionProps) {
                         </div>
 
                         {/* Card 2 — Dos personas (destacada) */}
-                        <div className="overflow-hidden rounded-2xl border-2 border-[#4272FF] bg-white shadow-sm">
+                        <div className="flex flex-col overflow-hidden rounded-2xl border-2 border-[#4272FF] bg-white shadow-sm">
                             <div className="h-1 w-full bg-[#4272FF]" />
-                            <div className="flex flex-col p-8">
+                            <div className="flex flex-1 flex-col p-8">
                                 <div className="mb-4 flex items-center gap-3">
                                     <p className="font-['Roboto'] text-sm font-medium uppercase tracking-widest text-[#6b6b80]">
                                         Dos Personas
