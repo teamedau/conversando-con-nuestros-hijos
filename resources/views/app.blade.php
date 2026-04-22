@@ -61,18 +61,18 @@
         {{-- JSON-LD: Event schema (rich results en Google) --}}
         <script type="application/ld+json">
         {
-            "@context": "https://schema.org",
-            "@type": "Event",
+            "@@context": "https://schema.org",
+            "@@type": "Event",
             "name": "Conversando con Nuestros Hijos",
             "startDate": "2026-05-23T10:00:00+10:00",
             "endDate": "2026-05-23T13:00:00+10:00",
             "eventStatus": "https://schema.org/EventScheduled",
             "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
             "location": {
-                "@type": "Place",
+                "@@type": "Place",
                 "name": "Bardon Community Centre",
                 "address": {
-                    "@type": "PostalAddress",
+                    "@@type": "PostalAddress",
                     "addressLocality": "Bardon",
                     "addressRegion": "QLD",
                     "postalCode": "4065",
@@ -82,13 +82,13 @@
             "image": "{{ url('/images/og-image.jpg') }}",
             "description": "Un evento presencial en Bardon, Brisbane para padres latinos. 6 expertas en vivo durante 3 horas: sexualidad, finanzas personales, espiritualidad, comunicación efectiva, multiculturalidad y ciberseguridad.",
             "organizer": {
-                "@type": "Organization",
+                "@@type": "Organization",
                 "name": "Conversando con Nuestros Hijos",
                 "url": "{{ url('/') }}"
             },
             "offers": [
                 {
-                    "@type": "Offer",
+                    "@@type": "Offer",
                     "name": "Una persona",
                     "price": "49",
                     "priceCurrency": "AUD",
@@ -97,7 +97,7 @@
                     "validFrom": "2026-04-22T00:00:00+10:00"
                 },
                 {
-                    "@type": "Offer",
+                    "@@type": "Offer",
                     "name": "Dos personas",
                     "price": "79",
                     "priceCurrency": "AUD",
@@ -107,12 +107,12 @@
                 }
             ],
             "performer": [
-                { "@type": "Person", "name": "Ana María Uztaris" },
-                { "@type": "Person", "name": "Soraya Cooney" },
-                { "@type": "Person", "name": "Gabriela Borgognone" },
-                { "@type": "Person", "name": "Solange Lipcin" },
-                { "@type": "Person", "name": "Karoll Pinzón" },
-                { "@type": "Person", "name": "Viviana Castrillón" }
+                { "@@type": "Person", "name": "Ana María Uztaris" },
+                { "@@type": "Person", "name": "Soraya Cooney" },
+                { "@@type": "Person", "name": "Gabriela Borgognone" },
+                { "@@type": "Person", "name": "Solange Lipcin" },
+                { "@@type": "Person", "name": "Karoll Pinzón" },
+                { "@@type": "Person", "name": "Viviana Castrillón" }
             ],
             "inLanguage": "es",
             "maximumAttendeeCapacity": 40
@@ -122,54 +122,54 @@
         {{-- JSON-LD: FAQ schema (rich results para preguntas frecuentes) --}}
         <script type="application/ld+json">
         {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
+            "@@context": "https://schema.org",
+            "@@type": "FAQPage",
             "mainEntity": [
                 {
-                    "@type": "Question",
+                    "@@type": "Question",
                     "name": "¿Para qué edades de hijos es este evento?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "@@type": "Answer",
                         "text": "Para todas las etapas. Cada experta habla desde su área y trae herramientas adaptables — tú decides cómo aplicarlas según la edad de tus hijos."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "@@type": "Question",
                     "name": "¿Puedo ir solo o sola sin mi pareja?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "@@type": "Answer",
                         "text": "Sí, absolutamente. Lo importante es que tú te vayas con nuevas herramientas. El resto lo construyes en casa a tu ritmo."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "@@type": "Question",
                     "name": "¿Qué pasa si tengo hijos de diferentes edades?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "@@type": "Answer",
                         "text": "Es lo más común. Cada experta aborda su tema desde distintas etapas y vas a poder adaptar lo que aprendas a cada uno."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "@@type": "Question",
                     "name": "¿Por qué este precio?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "@@type": "Answer",
                         "text": "Porque queremos que ninguna familia se quede sin poder venir. Son 3 horas, 6 expertas y conversaciones que valen mucho más que el valor del ticket."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "@@type": "Question",
                     "name": "¿Los lugares son realmente limitados?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Sí. El evento es para máximo 40 familias — queremos que sea cercano y real, no un auditorio frío. Una vez se acaben los cupos, se acaban."
+                        "@@type": "Answer",
+                        "text": "Sí. El evento es para máximo 40 familias — queremos que sea cercano y real, no un auditorio frío. Una vez se acaben los cupos, se acaben."
                     }
                 },
                 {
-                    "@type": "Question",
+                    "@@type": "Question",
                     "name": "¿Hay estacionamiento?",
                     "acceptedAnswer": {
-                        "@type": "Answer",
+                        "@@type": "Answer",
                         "text": "Sí. El venue tiene parqueadero, un pequeño parque de juegos por si vienen con los chiquitines, y acceso para personas con discapacidad."
                     }
                 }
