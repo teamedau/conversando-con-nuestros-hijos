@@ -74,17 +74,6 @@ export default function Welcome() {
                     name="description"
                     content="Un evento presencial en Bardon, Brisbane para padres latinos. 6 expertas en vivo durante 3 horas. Aprende a tener las conversaciones importantes con tus hijos. 23 de Mayo 2026 · Desde $49 AUD."
                 />
-                <meta property="og:title" content="Conversando con Nuestros Hijos – Brisbane 2025" />
-                <meta
-                    property="og:description"
-                    content="6 expertas latinoamericanas. 3 horas de contenido real. 1 evento presencial en Brisbane. ¿No preferirías que tus hijos recibieran esta información de ti?"
-                />
-                <meta property="og:type" content="website" />
-                <meta property="og:image" content="/images/og-image.jpg" />
-                <meta property="og:image:width" content="1200" />
-                <meta property="og:image:height" content="630" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:image" content="/images/og-image.jpg" />
             </Head>
 
             <main>
