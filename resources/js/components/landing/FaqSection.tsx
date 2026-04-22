@@ -30,7 +30,7 @@ const faqs = [
     {
         pregunta: '¿Los lugares son realmente limitados?',
         respuesta:
-            'Sí. El evento es para máximo 40 familias — queremos que sea cercano y real, no un auditorio frío. Una vez se acaben los cupos, se acaban.',
+            'Sí. El evento es para máximo 40 personas — queremos que sea cercano y real, no un auditorio frío. Una vez se acaben los cupos, se acaban.',
     },
     {
         pregunta: '¿Hay estacionamiento?',
