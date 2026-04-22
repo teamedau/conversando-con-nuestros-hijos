@@ -8,7 +8,7 @@ const faqs = [
             'Para todas las etapas. Cada experta habla desde su área y trae herramientas adaptables — tú decides cómo aplicarlas según la edad de tus hijos.',
     },
     {
-        pregunta: '¿Puedo ir solo o sola sin mi pareja?',
+        pregunta: '¿Puedo ir sin mi pareja?',
         respuesta:
             'Sí, absolutamente. Lo importante es que tú te vayas con nuevas herramientas. El resto lo construyes en casa a tu ritmo.',
     },
@@ -35,7 +35,11 @@ const faqs = [
     {
         pregunta: '¿Hay estacionamiento?',
         respuesta:
-            'Sí. El venue tiene parqueadero, un pequeño parque de juegos por si vienen con los chiquitines, y acceso para personas con discapacidad.',
+            'Sí. El venue tiene parqueadero hay cupos limitados. Trata de llegar temprano.',
+    },
+    {   pregunta: '¿Hay otras comodidades?', 
+        respuesta: 
+            'Sí, el venue ofrece acceso para personas con discapacidad y un pequeño parque para niños (Niños bajo supervisión de sus padres).',
     },
 ];
 

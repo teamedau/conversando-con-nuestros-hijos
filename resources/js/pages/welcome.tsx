@@ -18,7 +18,7 @@ const expertas: Experta[] = [
         nombre: 'Ana María Uztaris',
         tema: 'Sexualidad',
         descripcion:
-            'Educadora sexual certificada. Te da el vocabulario y el enfoque para hablar de cuerpo, consentimiento y desarrollo con claridad y amor.',
+            'Doctora en ciencias de la orientación sexual y terapeuta de pareja. Te da el vocabulario y el enfoque para hablar de cuerpo, consentimiento y desarrollo con claridad y amor.',
         color: '#FFB343',
         foto: '/images/ana-maria.jpg',
     },
@@ -26,7 +26,7 @@ const expertas: Experta[] = [
         nombre: 'Soraya Cooney',
         tema: 'Finanzas personales',
         descripcion:
-            'Asesora financiera saludables. Enseña a criar hijos con una relación sana con el dinero, el ahorro y el valor del trabajo.',
+            'Coach financiera con enfoque saludable. Aprendamos técnicas sencillas para que nuestros niños entiendan el valor y relación del dinero para lograr metas y bienestar.',
         color: '#42EAFF',
         foto: '/images/soraya.jpg',
     },
@@ -59,7 +59,7 @@ const expertas: Experta[] = [
         nombre: 'Viviana Castrillón',
         tema: 'Ciberseguridad',
         descripcion:
-            'Experta en tecnología y communicaciones digitales. Te enseña qué ven tus hijos en internet y los tres grandes desafíos que ningún padre debería ignorar.',
+            'Experta en tecnología y comunicaciones digitales. Te enseña qué ven tus hijos en internet y los tres grandes desafíos que ningún padre debería ignorar.',
         color: '#42EAFF',
         foto: '/images/viviana.jpg',
     },
@@ -72,7 +72,7 @@ export default function Welcome() {
                 <title>Conversando con Nuestros Hijos – Brisbane, 23 de Mayo 2026</title>
                 <meta
                     name="description"
-                    content="Un evento presencial en Bardon, Brisbane para padres latinos. 6 expertas en vivo durante 3 horas. Aprende a tener las conversaciones importantes con tus hijos. 23 de Mayo 2026 · $40 AUD."
+                    content="Un evento presencial en Bardon, Brisbane para padres latinos. 6 expertas en vivo durante 3 horas. Aprende a tener las conversaciones importantes con tus hijos. 23 de Mayo 2026 · Desde $49 AUD."
                 />
                 <meta property="og:title" content="Conversando con Nuestros Hijos – Brisbane 2025" />
                 <meta

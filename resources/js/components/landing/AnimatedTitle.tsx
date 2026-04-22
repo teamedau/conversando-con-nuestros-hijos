@@ -251,7 +251,7 @@ export default function AnimatedTitle({ humanitixUrl }: AnimatedTitleProps) {
                 onClick={(e) => e.stopPropagation()}
                 className="event-cta relative z-10 inline-block rounded-2xl bg-[#4272FF] px-7 py-4 font-['Roboto'] text-base font-medium text-white opacity-0 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-[#3060ee] hover:shadow-[#4272FF]/40 hover:shadow-xl sm:px-10 sm:text-lg"
             >
-                Quiero mi lugar · $40 AUD
+                Quiero mi lugar · Desde $49 AUD
             </a>
 
             <p className="mt-5 font-['Roboto'] text-xs text-white/25">

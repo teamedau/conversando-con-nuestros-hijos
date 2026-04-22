@@ -41,7 +41,7 @@ export default function CtaFinal({ humanitixUrl }: CtaFinalProps) {
                     23 de Mayo · 10:00 am – 1:00 pm · Bardon, Brisbane
                 </p>
 
-                <p className="mb-8 font-['Roboto'] text-sm text-white/50">Máximo 40 familias.</p>
+                <p className="mb-8 font-['Roboto'] text-sm text-white/50">Máximo 40 personas.</p>
 
                 <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
                     <a
@@ -58,7 +58,7 @@ export default function CtaFinal({ humanitixUrl }: CtaFinalProps) {
                         rel="noopener noreferrer"
                         className="inline-block w-full rounded-full border-2 border-[#FFB343] px-8 py-4 text-center font-['Roboto'] text-base font-medium text-[#FFB343] transition-all duration-200 hover:bg-[#FFB343]/10 sm:w-auto"
                     >
-                        Venimos en pareja · $79 AUD
+                        Venimos do personas juntas · $79 AUD
                     </a>
                 </div>
 

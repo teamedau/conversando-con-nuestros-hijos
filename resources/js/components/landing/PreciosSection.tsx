@@ -44,13 +44,13 @@ export default function PreciosSection({ humanitixUrl }: PreciosSectionProps) {
                             </div>
                         </div>
 
-                        {/* Card 2 — En pareja (destacada) */}
+                        {/* Card 2 — Dos personas (destacada) */}
                         <div className="overflow-hidden rounded-2xl border-2 border-[#4272FF] bg-white shadow-sm">
                             <div className="h-1 w-full bg-[#4272FF]" />
                             <div className="flex flex-col p-8">
                                 <div className="mb-4 flex items-center gap-3">
                                     <p className="font-['Roboto'] text-sm font-medium uppercase tracking-widest text-[#6b6b80]">
-                                        En pareja
+                                        Dos Personas
                                     </p>
                                     <span className="rounded-full bg-[#4272FF] px-3 py-0.5 font-['Roboto'] text-[11px] font-medium text-white">
                                         Más popular
@@ -59,7 +59,7 @@ export default function PreciosSection({ humanitixUrl }: PreciosSectionProps) {
                                 <p className="mb-1 font-['Rum_Raisin'] text-5xl text-[#0a0a1a]">$79</p>
                                 <p className="mb-4 font-['Roboto'] text-sm text-[#6b6b80]">AUD</p>
                                 <p className="mb-8 font-['Roboto'] text-base text-[#3a3a4a]">
-                                    Porque estas conversaciones se construyen entre dos.
+                                    Porque esto no es solo entenderlo, es lograr aplicarlo en casa.
                                 </p>
                                 <a
                                     href={humanitixUrl}
