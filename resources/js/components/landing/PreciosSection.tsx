@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 import { useScrollAnimation } from '@/hooks/use-scroll-animation';
 
 interface PreciosSectionProps {
@@ -20,7 +21,7 @@ export default function PreciosSection({ humanitixUrl }: PreciosSectionProps) {
                         ¿Cuánto vale?
                     </h2>
 
-                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                    <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
                         {/* Card 1 — Una persona */}
                         <div className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-sm">
                             <div className="h-1 w-full bg-[#FFB343]" />
@@ -69,6 +70,27 @@ export default function PreciosSection({ humanitixUrl }: PreciosSectionProps) {
                                 >
                                     Reservar dos lugares
                                 </a>
+                            </div>
+                        </div>
+
+                        {/* Card 3 — Sponsor */}
+                        <div className="flex flex-col overflow-hidden rounded-2xl bg-[#0a0a1a] shadow-sm">
+                            <div className="h-1 w-full bg-[#42EAFF]" />
+                            <div className="flex flex-1 flex-col p-8">
+                                <p className="mb-2 font-['Roboto'] text-sm font-medium uppercase tracking-widest text-[#42EAFF]/70">
+                                    Sponsor
+                                </p>
+                                <p className="mb-1 font-['Rum_Raisin'] text-5xl text-white">$79</p>
+                                <p className="mb-4 font-['Roboto'] text-sm text-white/40">AUD</p>
+                                <p className="mb-8 font-['Roboto'] text-base text-white/60">
+                                    Lleva tu negocio a 40+ familias latinas en Brisbane.
+                                </p>
+                                <Link
+                                    href="/sponsor"
+                                    className="mt-auto block w-full rounded-full border border-[#42EAFF]/40 py-3.5 text-center font-['Roboto'] text-base font-medium text-[#42EAFF] transition-all duration-200 hover:border-[#42EAFF] hover:bg-[#42EAFF]/10"
+                                >
+                                    Quiero ser sponsor
+                                </Link>
                             </div>
                         </div>
                     </div>

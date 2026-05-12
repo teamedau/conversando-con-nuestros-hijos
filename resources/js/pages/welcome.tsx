@@ -3,6 +3,7 @@ import CausaSection from '@/components/landing/CausaSection';
 import CtaFinal from '@/components/landing/CtaFinal';
 import ExpertasSection, { type Experta } from '@/components/landing/ExpertasSection';
 import FaqSection from '@/components/landing/FaqSection';
+import FloatingBanner from '@/components/landing/FloatingBanner';
 import Footer from '@/components/landing/Footer';
 import HeroSection from '@/components/landing/HeroSection';
 import PreciosSection from '@/components/landing/PreciosSection';
@@ -88,6 +89,7 @@ export default function Welcome() {
                 <CtaFinal humanitixUrl={HUMANITIX_URL} />
                 <Footer />
             </main>
+            <FloatingBanner />
         </>
     );
 }
