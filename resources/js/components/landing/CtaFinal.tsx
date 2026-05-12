@@ -58,7 +58,7 @@ export default function CtaFinal({ humanitixUrl }: CtaFinalProps) {
                         rel="noopener noreferrer"
                         className="inline-block w-full rounded-full border-2 border-[#FFB343] px-8 py-4 text-center font-['Roboto'] text-base font-medium text-[#FFB343] transition-all duration-200 hover:bg-[#FFB343]/10 sm:w-auto"
                     >
-                        Venimos do personas juntas · $79 AUD
+                        Venimos dos personas juntas · $79 AUD
                     </a>
                 </div>
 
